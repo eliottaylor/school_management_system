@@ -1,0 +1,42 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+@font-face {
+    font-family: 'bnazanin';
+    src:url('/assets/fonts/fonts/BNazanin.eot?#') format('eot'),
+    url('/assets/fonts/fonts/BNazanin.woff') format('woff'),
+    url('/assets/fonts/fonts/BNazanin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'btitr';
+    src:url('/assets/fonts/fonts/BTitrBold.eot?#') format('eot'),
+    url('/assets/fonts/fonts/BTitrBold.woff') format('woff'),
+    url('/assets/fonts/fonts/BTitrBold.ttf') format('truetype');
+}
+
+
+
+
+body {
+    font-family: "bnazanin", Tahoma !important;
+}
+
+
+/* Full Calendar Style */
+.panel-primary > .panel-heading {
+    min-height: 3em;
+    /*margin-bottom: 1em;*/
+}
+
+.fc-toolbar {
+    padding: 1em;
+}
+
+.fc-day-number {
+    text-align: right !important;
+}
+/**/
